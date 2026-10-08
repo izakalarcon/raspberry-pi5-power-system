@@ -122,11 +122,11 @@ R1 = 10 ohm
 
 | Item | CALCULATED | LTSPICE | MEASURED |
 |---|---:|---:|---:|
-| Rail peak | 11.13 V | 10.967 V | not yet |
-| Rail valley | 9.23 V | 9.540 V | not yet |
-| Rail ripple | 1.89 Vpp | 1.427 Vpp | not yet |
+| Rail peak | 11.13 V | 10.978 V | not yet |
+| Rail valley | 9.23 V | 9.522 V | not yet |
+| Rail ripple | 1.89 Vpp | 1.456 Vpp | not yet |
 | Vout | 5.00 V | 5.0153 V | not yet |
-| Regulator heat | 2.59 W | 2.63 W | not yet |
+| Regulator heat | 2.59 W | 2.66 W | not yet |
 
 The cursor screenshots are also saved. For the final valley check I moved the cursor onto the actual low point and got 9.5404928 V at 152.91577 ms, which rounds to 9.540 V in the table.
 
