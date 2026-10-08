@@ -46,16 +46,13 @@ I did not really have my own expectation before the very first run because I was
 
 | Item | Calculated | LTspice | Measured | Difference vs calculated |
 |---|---:|---:|---:|---:|
-| Rail peak | 11.13 V | 10.978 V | not yet | -1.5% |
-| Rail valley | 9.23 V | 9.522 V | not yet | +3.4% |
-| Ripple | 1.89 Vpp | 1.456 Vpp | not yet | -24.5% |
+| Rail peak | 11.13 V | 10.978 V | not yet | -1.4% |
+| Rail valley | 9.23 V | 9.522 V | not yet | +3.2% |
+| Ripple | 1.89 Vpp | 1.456 Vpp | not yet | -23.0% |
 | Vout | 5.00 V | 5.0153 V | not yet | +0.3% |
-| Regulator heat | 2.59 W | 2.66 W | not yet | +1.4% |
+| Regulator heat | 2.59 W | 2.66 W | not yet | +2.6% |
 
 2026-10-08: Re-extracted the numbers with a script from the LTspice export. The Oct 7 values were read by hand with cursors.
-
-On Oct 7 I read the values by cursor (peak 10.967 V, valley 9.540 V). On Oct 8 a script extracted the true values from the exported data.
-
 
 
 ## Earlier default-diode run
