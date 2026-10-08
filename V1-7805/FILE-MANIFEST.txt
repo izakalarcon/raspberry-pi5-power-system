@@ -1,0 +1,8 @@
+README.md                           Main write-up for the 2026-10-07 V1 LTspice session
+V1_front_end.asc                    Exact LTspice schematic used for the final D1-D4 = 1N4007 run
+session-log.md                      Short session log with final 1N4007 results
+engineering-notes.md                Decisions, mistakes, model check, fixes, and open limitation
+handwritten-notes-transcription.md  Searchable transcription; older/default-diode values are labeled
+TODO-next-session.md                Next physical test and GitHub status
+images/                             Early/default-diode images plus final 1N4007 screenshots
+source/handwritten-notes-original.pdf Original handwritten notebook PDF
