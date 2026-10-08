@@ -89,3 +89,5 @@ When the adapter arrives, measure its no-load AC voltage with the multimeter bef
 - [x] typed notebook transcription
 - [ ] physical photos
 - [ ] git commit
+
+2026-10-08: Re-extracted the numbers with a script from the LTspice export. The Oct 7 values were read by hand with cursors.
