@@ -51,11 +51,11 @@ The later versions are still planned, not finished designs. I will update them a
 
 | Item | CALCULATED | SIMULATED | MEASURED |
 |---|---:|---:|---:|
-| Rail peak | 11.13 V | 10.967 V | not yet |
-| Rail valley | 9.23 V | 9.540 V | not yet |
-| Rail ripple | 1.89 Vpp | 1.427 Vpp | not yet |
+| Rail peak | 11.13 V | 10.978 V | not yet |
+| Rail valley | 9.23 V | 9.522 V | not yet |
+| Rail ripple | 1.89 Vpp | 1.456 Vpp | not yet |
 | Vout | 5.00 V | 5.0153 V | not yet |
-| Regulator heat | 2.59 W | 2.63 W | not yet |
+| Regulator heat | 2.59 W | 2.66 W | not yet |
 
 For the current LTspice work I used a 2N3055 emitter-follower as a temporary stand-in for the 7805. My LTspice setup did not have the 7805 model I was looking for, and searching `7805` brought up the LTC7805, which is a completely different switching controller.
 
