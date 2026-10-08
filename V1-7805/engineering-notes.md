@@ -107,3 +107,28 @@ These were extracted by script on 2026-10-08. My Oct 7 cursor readings were 10.9
 The final diode drop works out to roughly 0.88 V per conducting diode from the peak result, instead of the roughly 0.83 V I was seeing before.
 
 **What I learned:** A schematic can look basically identical while a different device model changes the numbers. I need to check the actual Value/model field, not just the diode symbol.
+
+## Entry 6 - 2026-10-08 - V1 - MEASUREMENT METHOD - SOLVED
+
+**What happened:** On Oct 7 I read the rail peak and valley with the LTspice
+cursor. A cursor only lands where I click, so it can miss the true high or low
+point by a small amount.
+
+**Fix:** I exported the waveform data from LTspice (File > Export data as text)
+and used a short Python script to take the true max and min over the steady-state window
+(last 0.1 s).
+
+**Result:**
+
+| Item | Cursor (Oct 7) | Script (Oct 8) |
+|---|---:|---:|
+| Rail peak | 10.967 V | 10.978 V |
+| Rail valley | 9.540 V | 9.522 V |
+| Ripple | 1.427 Vpp | 1.456 Vpp |
+
+The cursor readings were off by about 0.01 to 0.02 V. That is small, but it
+shows hand-reading is not repeatable.
+
+**What I learned:** Use the full data when I can instead of reading values by
+eye. I plan to use the same approach on the Rigol scope data when I measure the
+real circuit. The script is in `analysis/`.
