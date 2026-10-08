@@ -21,8 +21,7 @@ C >= 1459 uF
 
 The 25 V capacitor rating is comfortably above the nominal rectified peak. I am going to measure the real adapter's no-load AC voltage before I treat the hardware voltage margin as verified.
 
-**Result:** Final 1N4007 LTspice run had a rail valley around 9.54 V, which leaves about 2.54 V above the 7 V target.
-
+**Result:** Final 1N4007 LTspice run had a rail valley about 9.52 V, which leaves about 2.52 V above the 7 V target (script-extracted, Oct 8).
 **What I learned:** Pick the part from the requirement first, then check tolerance and rating instead of just picking a random bigger value.
 
 ---
@@ -102,6 +101,8 @@ Ripple       1.456 Vpp
 Vout         5.0153 V
 Heat         2.66 W
 ```
+
+These were extracted by script on 2026-10-08. My Oct 7 cursor readings were 10.967 V peak, 9.540 V valley, 1.427 Vpp ripple, and 2.63 W heat.
 
 The final diode drop works out to roughly 0.88 V per conducting diode from the peak result, instead of the roughly 0.83 V I was seeing before.
 
