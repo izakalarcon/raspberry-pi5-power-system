@@ -128,7 +128,7 @@ R1 = 10 ohm
 | Vout | 5.00 V | 5.0153 V | not yet |
 | Regulator heat | 2.59 W | 2.66 W | not yet |
 
-The cursor screenshots are also saved. For the final valley check I moved the cursor onto the actual low point and got 9.5404928 V at 152.91577 ms, which rounds to 9.540 V in the table.
+The Oct 7 cursor readings (peak 10.967 V, valley 9.540 V) slightly missed the true extremes. The table above uses values extracted by script from the LTspice export on Oct 8 (see analysis/).
 
 ![Final 1N4007 schematic](images/19_FINAL_1N4007_schematic.png)
 
