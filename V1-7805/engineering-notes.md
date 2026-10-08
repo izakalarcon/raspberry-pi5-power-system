@@ -96,11 +96,11 @@ Heat         2.67 W
 **Final explicit 1N4007 run:**
 
 ```text
-Rail peak   10.967 V
-Rail valley  9.540 V
-Ripple       1.427 Vpp
+Rail peak   10.978 V
+Rail valley  9.522 V
+Ripple       1.456 Vpp
 Vout         5.0153 V
-Heat         2.63 W
+Heat         2.66 W
 ```
 
 The final diode drop works out to roughly 0.88 V per conducting diode from the peak result, instead of the roughly 0.83 V I was seeing before.
